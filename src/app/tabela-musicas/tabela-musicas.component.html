@@ -1,1 +1,25 @@
-<p>tabela-musicas works!</p>
+<div class="container">
+  <h2>Lista de Músicas</h2>
+  <table class="table table-dark">
+    <thead class="thead-light">
+      <tr>
+        <th>Título</th>
+        <th>Artista</th>
+        <th>Álbum</th>
+        <th>Ano</th>
+        <th>Gênero</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let musica of musicas">
+        <td>{{ musica.titulo }}</td>
+        <td>{{ musica.artista }}</td>
+        <td>{{ musica.album }}</td>
+        <td>{{ musica.ano }}</td>
+        <td>{{ musica.genero }}</td>
+        <td><button class="btn btn-danger" (click)="removeMusica(musica.id)">Remover</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
