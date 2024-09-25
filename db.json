@@ -1,0 +1,7 @@
+{
+  "musicas": [
+    { "id": 1, "titulo": "Imagine", "artista": "John Lennon", "album": "Imagine", "ano": 1971, "genero": "Rock" },
+    { "id": 2, "titulo": "Bohemian Rhapsody", "artista": "Queen", "album": "A Night at the Opera", "ano": 1975, "genero": "Rock" },
+    { "id": 3, "titulo": "Hotel California", "artista": "Eagles", "album": "Hotel California", "ano": 1976, "genero": "Rock" }
+  ]
+}
